@@ -1,2 +1,0 @@
-#Spring boot starter
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.star.starapiclientsdk.StarApiClinetConfig

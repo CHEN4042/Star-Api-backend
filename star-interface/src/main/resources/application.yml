@@ -1,9 +1,0 @@
-server:
-    port: 8123
-    servlet:
-        context-path: /api
-
-starapi:
-    client:
-        access-key: admin
-        secret-key: 123456

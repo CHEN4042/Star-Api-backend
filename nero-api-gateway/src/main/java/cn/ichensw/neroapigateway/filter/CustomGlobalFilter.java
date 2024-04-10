@@ -229,7 +229,7 @@ public class CustomGlobalFilter implements GlobalFilter, Ordered {
     }
 
     private void postHandler(ServerHttpRequest request, ServerHttpResponse response, Long interfaceInfoId, Long userId) {
-        RLock lock = redissonClient.getLock("api:add_interface_num:" + userId);
+        RLock lock = redissonClient.getLock("api:add_interface_num");
         if (response.getStatusCode() == HttpStatus.OK) {
             CompletableFuture.runAsync(() -> {
                 if (lock.tryLock()) {

@@ -1,5 +1,3 @@
-create database if not exists nero_api;
-
 use nero_api;
 
 create table if not exists interface_info

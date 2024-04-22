@@ -81,7 +81,7 @@ CREATE TABLE `user`  (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES (1667508636207661058, 'nero', '40576063cc4e128bee21f333df54d346', NULL, NULL, 'Nero', 'https://yupao-project-ichensw.oss-cn-hangzhou.aliyuncs.com/PEej0vHQ-4.jpg', NULL, 'admin', '53349ea7504b8985606a8edbda11e314', '82b9389e40dd4c589feebd12fe60786a', '2023-06-10 20:26:54', '2023-07-10 23:12:03', 0);
+INSERT INTO `user` VALUES (1667508636207661058, 'admin', '40576063cc4e128bee21f333df54d346', NULL, NULL, 'Nero', 'https://yupao-project-ichensw.oss-cn-hangzhou.aliyuncs.com/PEej0vHQ-4.jpg', NULL, 'admin', '53349ea7504b8985606a8edbda11e314', '82b9389e40dd4c589feebd12fe60786a', '2023-06-10 20:26:54', '2023-07-10 23:12:03', 0);
 INSERT INTO `user` VALUES (1668967663894642689, 'niko', '40576063cc4e128bee21f333df54d346', NULL, NULL, 'Niko', 'https://image-bed-ichensw.oss-cn-hangzhou.aliyuncs.com/006VVqOWgy1h43uaynbyxj30go0go0u7.jpg', NULL, 'user', '6ab93d6aae79d390562ec73127c7446c', '95848fadb0461070537d9a519e71e22c', '2023-06-14 21:04:33', '2023-06-14 21:10:18', 0);
 
 -- ----------------------------

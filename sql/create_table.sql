@@ -1,4 +1,4 @@
-use nero_api;
+use star_api;
 
 create table if not exists interface_info
 (

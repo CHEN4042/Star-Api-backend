@@ -1,4 +1,4 @@
-package cn.ichensw.neroapigateway;
+package cn.ichensw.starapigateway;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
@@ -14,10 +14,10 @@ import org.springframework.stereotype.Service;
         HibernateJpaAutoConfiguration.class})
 @EnableDubbo
 @Service
-public class NeroApiGatewayApplication {
+public class StarApiGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NeroApiGatewayApplication.class, args);
+        SpringApplication.run(StarApiGatewayApplication.class, args);
     }
 
 }

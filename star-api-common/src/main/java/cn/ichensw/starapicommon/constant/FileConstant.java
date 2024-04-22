@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.constant;
+package cn.ichensw.starapicommon.constant;
 
 /**
  * 文件常量

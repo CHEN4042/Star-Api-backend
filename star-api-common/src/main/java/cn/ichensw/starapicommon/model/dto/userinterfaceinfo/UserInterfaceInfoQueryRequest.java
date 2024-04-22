@@ -1,6 +1,6 @@
-package cn.ichensw.neroapicommon.model.dto.userinterfaceinfo;
+package cn.ichensw.starapicommon.model.dto.userinterfaceinfo;
 
-import cn.ichensw.neroapicommon.common.PageRequest;
+import cn.ichensw.starapicommon.common.PageRequest;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;

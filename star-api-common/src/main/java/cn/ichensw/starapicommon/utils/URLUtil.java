@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.utils;
+package cn.ichensw.starapicommon.utils;
 
 
 import java.io.UnsupportedEncodingException;

@@ -22,7 +22,7 @@ logging:
           gateway: trace
 dubbo:
   application:
-    name: nero-api-admin-provider
+    name: star-api-admin-provider
   protocol:
     name: dubbo
     port: 22223

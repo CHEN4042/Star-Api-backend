@@ -1,4 +1,4 @@
-package cn.ichensw.neroapigateway.config;
+package cn.ichensw.starapigateway.config;
 
 import lombok.Data;
 import org.redisson.Redisson;

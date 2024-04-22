@@ -1,6 +1,6 @@
-package cn.ichensw.neroapigateway.exception;
+package cn.ichensw.starapigateway.exception;
 
-import cn.ichensw.neroapicommon.common.ErrorCode;
+import cn.ichensw.starapicommon.common.ErrorCode;
 
 /**
  * 自定义异常类

@@ -10,10 +10,10 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
         DataSourceAutoConfiguration.class,
         DataSourceTransactionManagerAutoConfiguration.class,
         HibernateJpaAutoConfiguration.class})
-public class NeroApiInterfaceApplication {
+public class StarApiInterfaceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NeroApiInterfaceApplication.class, args);
+        SpringApplication.run(StarApiInterfaceApplication.class, args);
     }
 
 }

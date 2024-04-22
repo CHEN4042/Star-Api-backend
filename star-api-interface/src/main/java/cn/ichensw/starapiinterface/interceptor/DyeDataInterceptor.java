@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class DyeDataInterceptor implements HandlerInterceptor {
 
     private static final String DYE_DATA_HEADER = "X-Dye-Data";
-    private static final String DYE_DATA_VALUE = "nero";
+    private static final String DYE_DATA_VALUE = "star";
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.model.dto.file;
+package cn.ichensw.starapicommon.model.dto.file;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.model.entity;
+package cn.ichensw.starapicommon.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

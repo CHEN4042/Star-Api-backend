@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.model.dto.interfaceinfo;
+package cn.ichensw.starapicommon.model.dto.interfaceinfo;
 
 import lombok.Data;
 

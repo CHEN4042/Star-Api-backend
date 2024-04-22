@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.model.vo;
+package cn.ichensw.starapicommon.model.vo;
 
 
 import lombok.Data;

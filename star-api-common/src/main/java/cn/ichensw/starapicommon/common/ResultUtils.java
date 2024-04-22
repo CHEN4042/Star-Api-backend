@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.common;
+package cn.ichensw.starapicommon.common;
 
 /**
  * 返回工具类

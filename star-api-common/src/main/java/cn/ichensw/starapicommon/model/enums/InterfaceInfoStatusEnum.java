@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.model.enums;
+package cn.ichensw.starapicommon.model.enums;
 
 import org.apache.commons.lang3.ObjectUtils;
 

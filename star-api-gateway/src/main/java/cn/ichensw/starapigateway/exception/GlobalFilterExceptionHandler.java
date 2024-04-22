@@ -1,7 +1,7 @@
-package cn.ichensw.neroapigateway.exception;
+package cn.ichensw.starapigateway.exception;
 
-import cn.ichensw.neroapicommon.common.BaseResponse;
-import cn.ichensw.neroapicommon.common.ResultUtils;
+import cn.ichensw.starapicommon.common.BaseResponse;
+import cn.ichensw.starapicommon.common.ResultUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

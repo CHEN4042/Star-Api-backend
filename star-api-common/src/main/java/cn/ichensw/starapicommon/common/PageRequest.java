@@ -1,6 +1,6 @@
-package cn.ichensw.neroapicommon.common;
+package cn.ichensw.starapicommon.common;
 
-import cn.ichensw.neroapicommon.constant.CommonConstant;
+import cn.ichensw.starapicommon.constant.CommonConstant;
 import lombok.Data;
 
 /**

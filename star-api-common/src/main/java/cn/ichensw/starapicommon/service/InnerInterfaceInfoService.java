@@ -1,6 +1,6 @@
-package cn.ichensw.neroapicommon.service;
+package cn.ichensw.starapicommon.service;
 
-import cn.ichensw.neroapicommon.model.entity.InterfaceInfo;
+import cn.ichensw.starapicommon.model.entity.InterfaceInfo;
 
 /**
  *

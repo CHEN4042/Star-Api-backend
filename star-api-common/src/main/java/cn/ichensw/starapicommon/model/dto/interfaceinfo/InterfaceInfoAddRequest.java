@@ -1,7 +1,7 @@
-package cn.ichensw.neroapicommon.model.dto.interfaceinfo;
+package cn.ichensw.starapicommon.model.dto.interfaceinfo;
 
-import cn.ichensw.neroapicommon.model.vo.RequestParamsRemarkVO;
-import cn.ichensw.neroapicommon.model.vo.ResponseParamsRemarkVO;
+import cn.ichensw.starapicommon.model.vo.RequestParamsRemarkVO;
+import cn.ichensw.starapicommon.model.vo.ResponseParamsRemarkVO;
 import lombok.Data;
 
 import java.io.Serializable;

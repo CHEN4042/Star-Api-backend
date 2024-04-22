@@ -8,7 +8,7 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>nero-api-interface</artifactId>
+    <artifactId>star-api-interface</artifactId>
     <version>0.0.1</version>
 
     <description>接口模块</description>

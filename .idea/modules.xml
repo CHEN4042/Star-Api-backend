@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nero-api-backend.iml" filepath="$PROJECT_DIR$/nero-api-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nero-api-common/nero-api-common.iml" filepath="$PROJECT_DIR$/nero-api-common/nero-api-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-init.iml" filepath="$PROJECT_DIR$/springboot-init.iml" />
     </modules>
   </component>

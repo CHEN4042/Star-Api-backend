@@ -1,6 +1,6 @@
-package cn.ichensw.neroapicommon.model.vo;
+package cn.ichensw.starapicommon.model.vo;
 
-import cn.ichensw.neroapicommon.model.entity.InterfaceInfo;
+import cn.ichensw.starapicommon.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.google.gson.Gson;

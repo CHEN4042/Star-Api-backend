@@ -1,4 +1,4 @@
-package cn.ichensw.neroapicommon.constant.enums;
+package cn.ichensw.starapicommon.constant.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

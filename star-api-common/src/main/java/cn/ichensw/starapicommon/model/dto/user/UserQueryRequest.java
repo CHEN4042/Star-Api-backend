@@ -1,6 +1,6 @@
-package cn.ichensw.neroapicommon.model.dto.user;
+package cn.ichensw.starapicommon.model.dto.user;
 
-import cn.ichensw.neroapicommon.common.PageRequest;
+import cn.ichensw.starapicommon.common.PageRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

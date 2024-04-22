@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>nero-api-admin</module>
+        <module>star-api-admin</module>
         <module>nero-api-gateway</module>
         <module>nero-api-interface</module>
         <module>nero-api-common</module>
@@ -22,13 +22,13 @@
     </parent>
 
     <groupId>cn.ichensw</groupId>
-    <artifactId>nero-api-backend</artifactId>
+    <artifactId>star-api-backend</artifactId>
     <version>0.0.1</version>
 
-    <name>nero-api-backend</name>
+    <name>star-api-backend</name>
 
     <properties>
-        <nero-api.version>0.0.1</nero-api.version>
+        <star-api.version>0.0.2</star-api.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>2021.0.7</spring-cloud.version>
@@ -64,20 +64,20 @@
             <!--后台管理模块-->
             <dependency>
                 <groupId>cn.ichensw</groupId>
-                <artifactId>nero-api-admin</artifactId>
-                <version>${nero-api.version}</version>
+                <artifactId>star-api-admin</artifactId>
+                <version>0.0.1</version>
             </dependency>
             <!--网关模块-->
             <dependency>
                 <groupId>cn.ichensw</groupId>
                 <artifactId>nero-api-gateway</artifactId>
-                <version>${nero-api.version}</version>
+                <version>0.0.1</version>
             </dependency>
             <!--通用模块-->
             <dependency>
                 <groupId>cn.ichensw</groupId>
                 <artifactId>nero-api-common</artifactId>
-                <version>${nero-api.version}</version>
+                <version>0.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

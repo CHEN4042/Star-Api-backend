@@ -20,10 +20,10 @@
             <artifactId>star-api-sdk</artifactId>
             <version>0.0.2</version>
         </dependency>
-        <!--NeroApi Common-->
+        <!--StarApi Common-->
         <dependency>
             <groupId>cn.ichensw</groupId>
-            <artifactId>nero-api-common</artifactId>
+            <artifactId>star-api-common</artifactId>
         </dependency>
         <!-- SpringBoot Web -->
         <dependency>

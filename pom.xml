@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- @author <a href="https://github.com/liyupi">程序员鱼皮</a> -->
-<!-- @from <a href="https://yupi.icu">编程导航知识星球</a> -->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -10,9 +9,9 @@
 
     <modules>
         <module>star-api-admin</module>
-        <module>nero-api-gateway</module>
-        <module>nero-api-interface</module>
-        <module>nero-api-common</module>
+        <module>star-api-gateway</module>
+        <module>star-api-interface</module>
+        <module>star-api-common</module>
     </modules>
 
     <parent>
@@ -70,13 +69,13 @@
             <!--网关模块-->
             <dependency>
                 <groupId>cn.ichensw</groupId>
-                <artifactId>nero-api-gateway</artifactId>
+                <artifactId>star-api-gateway</artifactId>
                 <version>0.0.1</version>
             </dependency>
             <!--通用模块-->
             <dependency>
                 <groupId>cn.ichensw</groupId>
-                <artifactId>nero-api-common</artifactId>
+                <artifactId>star-api-common</artifactId>
                 <version>0.0.1</version>
             </dependency>
         </dependencies>

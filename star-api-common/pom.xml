@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>cn.ichensw</groupId>
-        <artifactId>nero-api-backend</artifactId>
+        <artifactId>star-api-backend</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>nero-api-common</artifactId>
+    <artifactId>star-api-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>nero-api-common</name>
+    <name>star-api-common</name>
     <url>http://maven.apache.org</url>
 
     <properties>

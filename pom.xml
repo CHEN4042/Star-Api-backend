@@ -20,14 +20,14 @@
         <version>2.7.0</version>
     </parent>
 
-    <groupId>cn.ichensw</groupId>
+    <groupId>cn.haoc</groupId>
     <artifactId>star-api-backend</artifactId>
     <version>0.0.1</version>
 
     <name>star-api-backend</name>
 
     <properties>
-        <star-api.version>0.0.2</star-api.version>
+        <star-api.version>0.0.1</star-api.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>2021.0.7</spring-cloud.version>
@@ -62,21 +62,21 @@
             </dependency>
             <!--后台管理模块-->
             <dependency>
-                <groupId>cn.ichensw</groupId>
+                <groupId>cn.haoc</groupId>
                 <artifactId>star-api-admin</artifactId>
-                <version>0.0.1</version>
+                <version>${star-api.version}</version>
             </dependency>
             <!--网关模块-->
             <dependency>
-                <groupId>cn.ichensw</groupId>
+                <groupId>cn.haoc</groupId>
                 <artifactId>star-api-gateway</artifactId>
-                <version>0.0.1</version>
+                <version>${star-api.version}</version>
             </dependency>
             <!--通用模块-->
             <dependency>
-                <groupId>cn.ichensw</groupId>
+                <groupId>cn.haoc</groupId>
                 <artifactId>star-api-common</artifactId>
-                <version>0.0.1</version>
+                <version>${star-api.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

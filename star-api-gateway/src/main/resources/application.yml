@@ -6,13 +6,14 @@ spring:
     gateway:
       routes:
         - id: path_route
-          uri: http://localhost:8123
+          uri: http://localhost:8081
           predicates:
             - Path=/**
   redis:
     host: localhost
     port: 6379
-    database: 1
+    database: 3
+
 
 logging:
   level:
@@ -22,12 +23,14 @@ logging:
           gateway: trace
 dubbo:
   application:
-    name: star-api-admin-provider
+    name: star-api-admin-consumer
+    qosEnable: true
+    qosPort: 33333
+    qosAcceptForeignIp: false
   protocol:
     name: dubbo
-    port: 22223
+    port: -1
   registry:
     id: nacos-registry
-    # todo 上线需要换成内网地址
     address: nacos://localhost:8848
 

@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>cn.ichensw</groupId>
+        <groupId>cn.haoc</groupId>
         <artifactId>star-api-backend</artifactId>
         <version>0.0.1</version>
     </parent>
@@ -19,16 +19,18 @@
     </properties>
 
     <dependencies>
+
         <!--Star Api SDK-->
         <dependency>
             <groupId>io.github.chen4042</groupId>
             <artifactId>star-api-sdk</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
         <!--StarApi common-->
         <dependency>
-            <groupId>cn.ichensw</groupId>
+            <groupId>cn.haoc</groupId>
             <artifactId>star-api-common</artifactId>
+            <version>0.0.1</version>
         </dependency>
         <!-- SpringBoot Web -->
         <dependency>

@@ -2,16 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>cn.ichensw</groupId>
+        <groupId>cn.haoc</groupId>
         <artifactId>star-api-backend</artifactId>
         <version>0.0.1</version>
     </parent>
 
     <artifactId>star-api-common</artifactId>
     <packaging>jar</packaging>
-
     <name>star-api-common</name>
-    <url>http://maven.apache.org</url>
+    <version>0.0.1</version>
+
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
